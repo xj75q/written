@@ -1,0 +1,118 @@
+{
+    "title": "written",
+    "author": "读书代码与猫",
+    "description": "无用之用，万用之基",
+    "language": "zh-hans",
+    
+    "engines":
+    {
+        "gitbook": "*"
+    },
+    "plugins":
+    [
+        "sidebar-style",
+        "hide-element",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "-splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "pageview-count",
+        "popup",
+        "-page-copyright",
+        "-sharing",
+        "sharing-plus",
+        "chapter-fold",
+        "-tbfed-pagefooter",
+        "github",
+        "lightbox"
+    ],
+    "pluginsConfig":
+    {
+        "hide-element":
+        {
+            "elements":
+            [
+                ".gitbook-link"
+            ]
+        },
+        "sidebar-style":
+        {
+            "title": "无用之用，万用之基",
+            "author": "读书,代码与猫"
+        },
+
+        "lightbox": {
+        "includeJQuery": false,
+        "sameUuid": true,
+        "options": {
+            "resizeDuration": 500,
+            "wrapAround": false
+            }
+        }, 
+
+        "tbfed-pagefooter":
+        {
+            "copyright": "Copyright  2023==========",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github":
+        {
+            "url": "null"
+        },
+        "sitemap":
+        {
+            "hostname":
+            {
+                "prefix": "https:null"
+            }
+        },
+        "sitemap-general": {
+            "prefix": "http:null"
+        },
+        "github-buttons":
+        {
+            "buttons":
+            [
+                {
+                    "user": "cj96248",
+                    "repo": "pikashop-parent",
+                    "type": "star",
+                    "size": "large"
+                },
+                {
+                    "user": "cj96248",
+                    "type": "follow",
+                    "width": "230",
+                    "count": false
+                }
+            ]
+        },
+        "sharing":
+        {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "twitter": false,
+            "weibo": false,
+            "all":
+            [
+                "douban",
+                "linkedin",
+                "weibo",
+                "messenger",
+                "qq",
+                "qzone",
+                "pocket",
+                "viber",
+                "whatsapp"
+            ]
+        }
+    }
+}
