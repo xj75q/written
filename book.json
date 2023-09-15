@@ -26,7 +26,7 @@
         "sharing-plus",
         "chapter-fold",
         "-tbfed-pagefooter",
-        "github",
+        "-github",
         "lightbox"
     ],
     "pluginsConfig":
