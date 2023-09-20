@@ -1,0 +1,6 @@
+img[src*="#width-full"]
+{
+    display: block;
+    width:3000px;
+    height:auto;
+}

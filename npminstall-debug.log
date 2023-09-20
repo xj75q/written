@@ -1,27 +1,19 @@
 {
-  root: 'E:\\7.gitfiles\\written',
+  root: '/home/qxz/sublimeStore/md-files/written',
   registry: 'https://registry.npmmirror.com',
-  pkgs: [
-    {
-      name: 'gitbook-plugin-page-copyrigh',
-      version: 'latest',
-      type: 'tag',
-      alias: undefined,
-      arg: [Result]
-    }
-  ],
+  pkgs: [],
   production: false,
   cacheStrict: false,
-  cacheDir: 'C:\\Users\\qxz\\.npminstall_tarball',
+  cacheDir: '/home/qxz/.npminstall_tarball',
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\qxz\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","gitbook-plugin-page-copyrigh"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\qxz\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","gitbook-plugin-page-copyrigh"]}',
-    npm_config_user_agent: 'npminstall/7.9.0 npm/? node/v16.16.0 win32 x64',
-    npm_config_cache: 'C:\\Users\\qxz\\.npminstall_tarball',
-    NODE: 'E:\\5.sysEnvs\\node-16.16.0\\node.exe',
-    npm_node_execpath: 'E:\\5.sysEnvs\\node-16.16.0\\node.exe',
-    npm_execpath: 'E:\\5.sysEnvs\\node-16.16.0\\global\\node_modules\\cnpm\\node_modules\\npminstall\\bin\\install.js',
-    npm_config_userconfig: 'C:\\Users\\qxz\\.cnpmrc',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=/home/qxz/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","gitbook-plugin-zoomable-image","-g"],"original":["--fix-bug-versions","--china","--userconfig=/home/qxz/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","gitbook-plugin-zoomable-image","-g"]}',
+    npm_config_user_agent: 'npminstall/7.9.0 npm/? node/v18.13.0 linux x64',
+    npm_config_cache: '/home/qxz/.npminstall_tarball',
+    NODE: '/usr/bin/node',
+    npm_node_execpath: '/usr/bin/node',
+    npm_execpath: '/usr/local/lib/node_modules/cnpm/node_modules/npminstall/bin/install.js',
+    npm_config_userconfig: '/home/qxz/.cnpmrc',
     npm_config_disturl: 'https://cdn.npmmirror.com/binaries/node',
     npm_config_r: 'https://registry.npmmirror.com',
     COREPACK_NPM_REGISTRY: 'https://registry.npmmirror.com',
@@ -49,8 +41,8 @@
     npm_config_sharp_binary_host: 'https://cdn.npmmirror.com/binaries/sharp',
     npm_config_sharp_libvips_binary_host: 'https://cdn.npmmirror.com/binaries/sharp-libvips',
     npm_config_robotjs_binary_host: 'https://cdn.npmmirror.com/binaries/robotjs',
-    npm_rootpath: 'E:\\7.gitfiles\\written',
-    INIT_CWD: 'E:\\7.gitfiles\\written'
+    npm_rootpath: '/home/qxz/sublimeStore/md-files/written',
+    INIT_CWD: '/home/qxz/sublimeStore/md-files/written'
   },
   binaryMirrors: {
     ENVS: {
@@ -185,7 +177,7 @@
   disableFallbackStore: false,
   workspacesMap: Map(0) {},
   enableWorkspace: false,
-  workspaceRoot: 'E:\\7.gitfiles\\written',
+  workspaceRoot: '/home/qxz/sublimeStore/md-files/written',
   isWorkspaceRoot: true,
   isWorkspacePackage: false,
   offline: false,
@@ -193,11 +185,13 @@
   ignoreScripts: false,
   foregroundScripts: false,
   ignoreOptionalDependencies: false,
-  detail: false,
+  detail: true,
   forceLinkLatest: false,
   trace: false,
   engineStrict: false,
   registryOnly: false,
   client: false,
-  autoFixVersion: [Function: autoFixVersion]
+  autoFixVersion: [Function: autoFixVersion],
+  targetDir: null,
+  binDir: null
 }

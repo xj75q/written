@@ -3,6 +3,9 @@
     "author": "读书代码与猫",
     "description": "无用之用，万用之基",
     "language": "zh-hans",
+    "styles": {
+        "website": "styles/website.css"
+    },
     
     "engines":
     {
@@ -27,7 +30,8 @@
         "chapter-fold",
         "-tbfed-pagefooter",
         "-github",
-        "lightbox"
+        "popup", 
+        "-lightbox"
     ],
     "pluginsConfig":
     {
@@ -43,15 +47,14 @@
             "title": "无用之用，万用之基",
             "author": "读书,代码与猫"
         },
-
-        "lightbox": {
+        "-lightbox": {
         "includeJQuery": false,
         "sameUuid": true,
         "options": {
             "resizeDuration": 500,
             "wrapAround": false
             }
-        }, 
+        },
 
         "tbfed-pagefooter":
         {
